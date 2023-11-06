@@ -1,3 +1,38 @@
+# React Quiz Application
+
+A dynamic and interactive quiz application built with React, Material UI, and powered by a Trivia Quiz API. This application allows users to test their knowledge on a variety of topics with customizable options. It is designed to be responsive and works seamlessly on both desktop and mobile devices.
+
+## Features
+
+- Input your name and select quiz preferences:
+  - Choose from 22 different categories.
+  - Select difficulty level (easy, medium, or hard).
+    ![Screenshot 2023-11-06 132724](https://github.com/andjelaa29/react-quiz-app/assets/93537835/a2df4cf5-5f59-4b40-8cc4-ec08f45cf1cd)
+
+- Input validation:
+  - You must fill in all required fields before starting the quiz.
+- Real-time loader:
+  - A loader is displayed while fetching quiz questions.
+- 10 quiz questions:
+  - Each question is presented with four answer options.
+    ![Screenshot 2023-11-06 132753](https://github.com/andjelaa29/react-quiz-app/assets/93537835/03f44b2e-a40d-41ae-b135-ea06fc369dd8)
+
+  - Answer validation:
+    - If no option is selected, you'll receive an error prompting you to choose an answer.
+    - Correct answers turn green, while incorrect ones turn red, and the correct option is highlighted in green.
+      ![Screenshot 2023-11-06 132910](https://github.com/andjelaa29/react-quiz-app/assets/93537835/f6f4372a-ee4e-4b28-a33e-1e9eb6fe7197)
+      ![Screenshot 2023-11-06 132930](https://github.com/andjelaa29/react-quiz-app/assets/93537835/2d139066-e5d1-4e25-8290-f8d9d1e901ec) 
+      ![Screenshot 2023-11-06 132946](https://github.com/andjelaa29/react-quiz-app/assets/93537835/a7ae1cf2-9974-4778-b2bb-aa6da4a14852)
+
+
+
+- Quit the game at any time:
+  - You can exit the quiz and return to the main menu.
+- Quiz results:
+  - After completing all 10 questions, your results are displayed.
+  - ![Screenshot 2023-11-06 133026](https://github.com/andjelaa29/react-quiz-app/assets/93537835/073ef362-2e2f-4480-90f8-00b8dd12ade0)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
